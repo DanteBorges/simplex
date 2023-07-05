@@ -1,7 +1,8 @@
 .card {
-    background: var(--gray-800) !important;
-    color: var(--white) !important;
+    background: #080807b4  !important;
+    color: #212121 !important;
     border-radius: 8px;
-    padding: 2.5rem;
+    width: 40rem;
+    height: 40rem;
     margin: auto;
 }

@@ -1,43 +1,65 @@
 .form {
-    background: transparent !important;
-    color: var(--white) !important;
+  background: transparent !important;
+  color: var(--white) !important;
 }
 
-
 .objective {
-    padding: 2rem;
-    color: var(--white);
+  padding: 2rem;
+  color: var(--white);
 }
 
 .number {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 100%;
-    margin: 1rem;
-    color: var(--white) !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  margin: 1rem;
+  color: var(--white) !important;
 }
 
 .inputText {
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
 }
 
 label {
-    color: var(--white) !important;
+  color: var(--white) !important;
+  font-size: 1.2rem !important;
+  font-weight: bold !important;
+}
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.titlesInputs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 5rem;
+  font-weight: bold;
 }
 
 .inputRadio {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+  display: flex;
+  gap: 2rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .FormLabel {
-    border: 1px solid var(--green-600);
-    border-radius: 8px;
-    padding: 0.75rem;
+  border: 2px solid #87ceeb;
+  border-radius: 8px;
+  padding: 0.75rem;
+  width: 20rem;
+}
+.radioGrup {
+  display: flex;
+  justify-content: space-around;
 }

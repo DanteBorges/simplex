@@ -13,7 +13,6 @@ function App() {
   return (
     <ContextProblem>
     <Router>
-  
       <Routes>
         <Route path='/' element={<CardProblem />}/>
         <Route path='/GenerateProblem' element={<GenerateProblem />}/>
