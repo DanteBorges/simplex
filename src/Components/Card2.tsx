@@ -5,8 +5,7 @@ import styles from './Card.module.css';
 export function Card2({ children }:any) {
   return (
     <Card className={styles.card}>
-      <CardActionArea>
-
+      {/* <CardActionArea>
         <CardContent>
           <Typography gutterBottom variant="h5" component="div">
             Inserir Dados 
@@ -15,7 +14,7 @@ export function Card2({ children }:any) {
             <strong>Inserir os valores da Função na primeira linha. Depois preencha o sistemas com suas inequações</strong>
           </Typography>
         </CardContent>
-      </CardActionArea>
+      </CardActionArea> */}
 
       <CardActions style={{display:'block'}}>
         {children}

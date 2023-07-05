@@ -217,19 +217,24 @@ export function FormCreateProblem() {
             />
           </div>
         </div>
-        <footer style={{ display: "flex", justifyContent: "center", alignItems: "center" }}>
-  <Button
-    type="submit"
-    variant="contained"
-    sx={{
-      backgroundColor: "#000080",
-      fontSize: "18px",
-    }}
-  >
-    Calcular
-  </Button>
-</footer>
-
+        <footer
+          style={{
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+          }}
+        >
+          <Button
+            type="submit"
+            variant="contained"
+            sx={{
+              backgroundColor: "#000080",
+              fontSize: "18px",
+            }}
+          >
+            Calcular
+          </Button>
+        </footer>
       </form>
     </div>
   );

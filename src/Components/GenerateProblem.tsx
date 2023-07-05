@@ -5,13 +5,7 @@ import {  Button, TextField } from "@mui/material";
 import { useNavigate } from "react-router-dom";
 
 
-interface IDataProblem {
-  numberVariable: number,
-  numberConstraints: number,
-  method: string,
-  option: string,
-  type: string
-}
+
 
 export function GenerateProblem() {
   const object = useContextProblem() 
@@ -30,17 +24,17 @@ export function GenerateProblem() {
     type  : object.data.type
   })
 
-  async function loadData() {
-    const response = await fetch('http://localhost:3000/data',{
-      method: 'get'
-    });
-    const data = await response.json();
-  }
+//   async function loadData() {
+//     const response = await fetch('http://localhost:3000/data',{
+//       method: 'get'
+//     });
+//     const data = await response.json();
+//   }
   
-  useEffect (() => {
-    loadData();
+//   useEffect (() => {
+//     loadData();
     
-}, [])
+// }, [])
 
   async function postData() {
     fetch('http://localhost:3000/data', {
