@@ -189,7 +189,9 @@ export function FormCreateProblem() {
               id="numberVariable"
               label="Número de Variáveis de Decisão"
               type="number"
-              color="success"
+              sx={{
+                color: "#87ceeb",
+              }}
               focused
               required
               InputProps={
@@ -206,18 +208,28 @@ export function FormCreateProblem() {
               id="numberConstraints"
               label="Número de Variáveis de Restrição"
               type="number"
-              color="success"
+              sx={{
+                color: "#87ceeb",
+              }}
               focused
               InputProps={{ inputProps: { min: 1 } }}
               required
             />
           </div>
         </div>
-        <footer>
-          <Button type="submit" variant="contained" color="success">
-            Continuar
-          </Button>
-        </footer>
+        <footer style={{ display: "flex", justifyContent: "center", alignItems: "center" }}>
+  <Button
+    type="submit"
+    variant="contained"
+    sx={{
+      backgroundColor: "#000080",
+      fontSize: "18px",
+    }}
+  >
+    Calcular
+  </Button>
+</footer>
+
       </form>
     </div>
   );
