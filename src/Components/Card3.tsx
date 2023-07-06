@@ -4,7 +4,7 @@ import styles from './Card.module.css';
 
 export function Card3({ children }:any) {
   return (
-    <Card className={styles.card}>
+    <Card className={styles.card3}>
       <CardActionArea>
 
         <CardContent>

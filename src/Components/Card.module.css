@@ -6,3 +6,9 @@
     height: 40rem;
     margin: auto;
 }
+.card3 {
+    background: #080807b4  !important;
+    color: #212121 !important;
+    border-radius: 8px;
+    padding: auto;
+}
